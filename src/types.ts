@@ -57,7 +57,7 @@ export interface GithubRepository {
   private: boolean;
   owner: GithubRepositoryOwner;
   html_url: string;
-  description?: any;
+  description?: string;
   fork: boolean;
   url: string;
   forks_url: string;
